@@ -1,0 +1,37 @@
+{
+  "name": "robust-segment-intersect",
+  "version": "0.0.0",
+  "description": "Exact arithmetic test for line segment intersection",
+  "main": "segseg.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "robust-orientation": "^1.0.0"
+  },
+  "devDependencies": {
+    "tape": "~2.4.2",
+    "tap": "~0.4.8"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/robust-segment-intersect.git"
+  },
+  "keywords": [
+    "exact",
+    "robust",
+    "arithmetic",
+    "line",
+    "segment",
+    "intersection"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/robust-segment-intersect/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/robust-segment-intersect"
+}
