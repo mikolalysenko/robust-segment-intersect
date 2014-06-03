@@ -2,7 +2,7 @@
 
 module.exports = segmentsIntersect
 
-var orient = require("robust-orientation")
+var orient = require("robust-orientation")[3]
 
 function crosses(a0, a1, b0, b1) {
   var x = orient(a0, b0, b1)
