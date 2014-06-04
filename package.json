@@ -1,6 +1,6 @@
 {
   "name": "robust-segment-intersect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Exact arithmetic test for line segment intersection",
   "main": "segseg.js",
   "directories": {
